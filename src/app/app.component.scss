@@ -1,0 +1,25 @@
+@import url("https://use.typekit.net/xrm4vhy.css");
+@import url("https://use.typekit.net/jxl3fbu.css");
+
+.container.header{
+  margin: 0 auto;
+}
+p{
+text-align: center;
+justify-content: center;
+font-family: sarina,sans-serif;
+font-weight: 800;
+font-size:xx-large;
+color: white;
+text-shadow: 2px 2px 4px #000000;
+font-style: normal;
+}
+
+.container.footer{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-family: muli,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}

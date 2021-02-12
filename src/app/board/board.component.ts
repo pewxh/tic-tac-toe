@@ -33,6 +33,9 @@ export class BoardComponent implements OnInit {
       this.xIsNext = !this.xIsNext;
     }
     this.winner = this.calculateWinner();
+    if(this.winner){
+      this.fillAll(this.winner);
+    }
   }
 
   calculateWinner() {
@@ -57,5 +60,10 @@ export class BoardComponent implements OnInit {
       }
     }
     return null;
+  }
+  fillAll(winner:string){
+    for(let i=0;i<9;i++)
+      this.squares[i] = winner;
+    //WOAHHHHHHH IT WORKS :')
   }
 }

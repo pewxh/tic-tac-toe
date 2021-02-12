@@ -1,18 +1,23 @@
-<nb-layout>
+<nb-layout class="bd">
 
-  <nb-layout-header fixed>
-  <!-- Insert header here -->
+  <nb-layout-header >
+  <div class="container header">
+    <p>Tic Tac Toe</p>
+  </div>
   </nb-layout-header>
 
   <nb-layout-column>
     <app-board></app-board>
-    
+
     <router-outlet></router-outlet>
 
   </nb-layout-column>
 
-  <nb-layout-footer fixed>
-  <!-- Insert footer here -->
+  <nb-layout-footer >
+  <div class="container footer">
+    <a href="https://github.com/piyux/tic-tac-toe" target="_blank" rel="noopener noreferrer">Source Code</a>
+    <a href="https://www.youtube.com/watch?v=G0bBLvWXBvc&t=979s" target="_blank" rel="noopener noreferrer">Tutorial</a>
+  </div>
   </nb-layout-footer>
 
 </nb-layout>
